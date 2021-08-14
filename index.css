@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    background-color: cadetblue;
+}
+body:hover{
+    background-color: honeydew;
+}
+/* style appliqué à h1  */
+h1{
+    text-align: center;
+    background-color: royalblue;
+    margin: 10px 50px 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #fff;
+   
+}
+/* style appliqué au h2  */
+h2{
+    background-color:cadetblue;
+    width: auto;
+    border-radius: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #fff;
+    text-align: center;
+    margin: 10px;
+    
+}
+/* style appliqué à la div principale  */
+.principal {
+    display: flex;
+    flex-direction: row;
+    padding: 0 50px;
+
+    
+}
+/* style appliqué à la div identification  */
+.identification{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: goldenrod;
+    padding: 0 0 10px 0 ;
+    width: 30%;
+    color: wheat;
+}
+/* style appliqué à l'image  */
+ .profil_photo{
+    text-align: center;
+ }
+.profil{
+    border-radius: 50%;
+    
+ }
+ .profil:hover{
+     border-radius: 30%;
+ }
+ /* style appliqué à la phrase en de sous de la photo */
+ .photo p{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFF;
+    font-weight: 700;
+ }
+ /* style appliqué à la div nom 'mon nom' */
+ .nom{
+     font-size: 25px;
+     text-transform: capitalize;
+     font-weight: bolder; 
+ }
+ /* style appliqué au paragraphe se trouvant dans la div etat_civil */
+ .etat_civil p{
+    padding-left: 10px;
+    line-height: 2em;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: 1.2em;
+ }
+ /* style de mon mail */
+ .mail{
+     text-transform: none;
+ }
+ /* style appliqué à hr  */
+ hr{
+     height: 3px;
+     border-radius: 2px;
+     padding: 0 20px;
+     background-color: indigo;
+ }
+ /* style appliqué à la section */
+section{
+    background-color:  wheat;
+    width: 70%;
+}
+/* style appliqué aux class date */
+.date{
+    font-size: 1.3em;
+    font-weight: 600;
+    color: teal;
+    text-transform: capitalize;
+}
+/* style appliqué aux class diplome */
+.diplome{
+    font-size: 1.2em;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: goldenrod;
+}
+/* style appliqué aux class atout */
+.atout{
+    font-size: 1.3em;
+    font-weight: 600;
+    color: teal;
+    text-transform: capitalize;
+}
+/* style appliqué aux class ditraction */
+.distraction{
+    font-size: 1.2em;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: goldenrod;
+}
+/* style appliqué à la partie connaissances linguistique et informatique */
+.langue, .span_informatique{
+    font-size: 1.3em;
+    font-weight: 600;
+    color: teal;
+    text-transform: capitalize;
+}
+/* style appliqué à la class specification */
+.specification{
+    font-size: 1.2em;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: goldenrod;
+}
+/*style appliqué au span sans nom */
+span{
+    font-size: 1.05em;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: black;
+}
+/* style du bouton */
+button{
+    background-color: cadetblue;
+    width: 60px;
+    padding: 5px 0;
+    margin-left: 25px;
+}
+/* au survol du bouton*/
+button:hover{
+    background-color:cornsilk ;
+    border: 2px solid blue;
+}
+/* Les medias queries */
+@media (max-width:1258px) {
+    .principal{
+        display: flex;
+        flex-direction: column;
+    }
+    .identification{
+        width: 100%;
+    }
+    section{
+        width: 100%;
+    }
+    section p{
+        text-align: justify;
+    }
+    .etat_civil p{
+        text-align: center;
+    }
+    .profil{
+        position: center;
+    }
+
+}
